@@ -1,0 +1,43 @@
+{
+  "name": "apicloud-wifi-helper",
+  "version": "0.1.3",
+  "description": "wifi sync helper for apicloud loader",
+  "repository": "https://github.com/SZzzzz/apicloud-wifi-helper",  
+  "author": "pibarr",
+  "license": "MIT",
+  "bin": {
+    "apicloud-wifi-helper": "./bin/apicloud-wifi-helper.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SZzzzz/apicloud-wifi-helper/issues"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "src",
+    "config",
+    "README.md"    
+  ],
+  "dependencies": {
+    "@types/chokidar": "^1.7.4",
+    "chalk": "^2.3.0",
+    "chokidar": "^1.7.0",
+    "fs-extra": "^4.0.3",
+    "glob": "^7.1.2",
+    "hasha": "^3.0.0",
+    "internal-ip": "^3.0.1",
+    "ws": "^3.3.2",
+    "xml2js": "^0.4.19",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.5",
+    "@types/glob": "^5.0.33",
+    "@types/hasha": "^3.0.0",
+    "@types/internal-ip": "^2.0.0",
+    "@types/node": "^8.0.56",
+    "@types/ws": "^3.2.1",
+    "@types/yargs": "^10.0.0",
+    "typescript": "^2.6.2"
+  }
+}
