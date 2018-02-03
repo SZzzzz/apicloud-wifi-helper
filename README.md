@@ -35,7 +35,7 @@
 * distTargetPath(default: ./widget/dist): 构建好的代码再 widget 中的位置.
 * syncIgnore(default: []) 同步时忽略的文件, 使用 glob 匹配.
 
-Note: 如果 `distSourcePath` 和 `distTargetPath` 未填写的话, 将监听 widget 目录, 在文件发生变化后触发同步, 否则会监听 distSourcePath 目录, 在文件发生变化后复制到 distSourcePath 后触发同步.
+Note: 如果 `distSourcePath` 和 `distTargetPath` 未填写的话, 将监听 widget 目录, 在文件发生变化后触发同步, 否则会监听 distSourcePath 目录, 在文件发生变化后复制到 distSourcePath 后触发同步.
 
 如果不需要自动复制功能的话请在 `wifisync.json` 文件设置:
 
@@ -48,4 +48,4 @@ Note: 如果 `distSourcePath` 和 `distTargetPath` 未填写的话, 将监听 w
 ```
 
 5. 启动服务  
-   确保装有 APP Loader 的移动设备和开发机在同一 WIFi 中, 运行 `yarn run apicloud` 或者 `npm run apicloud`, 在手机上按照显示的  IP 地址和端口连接即可.
+   确保装有 APP Loader 的移动设备和开发机在同一 WIFi 中, 运行 `yarn run apicloud` 或者 `npm run apicloud`, 在手机上按照控制台显示的 IP 地址和端口连接即可.
